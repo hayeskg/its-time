@@ -78,6 +78,16 @@ font-size: 28px;
 font-weight: bold;
 }
 
+.form h1{
+font-size: 28px;
+font-weight: bold;
+}
+
+.form p{
+font-size: 24px;
+background-color: red;
+}
+
 
 .footer {
   width: 100%;

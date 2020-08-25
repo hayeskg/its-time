@@ -1,8 +1,9 @@
+import styles from './form.module.css'
 import { TextField, Button } from '@material-ui/core';
 
-export default function Form({ dateString }) {
+export default function Form() {
   return (
-    <>
+    <div className={styles.form}>
       <h1>
         Register your interest
     </h1>
@@ -13,6 +14,6 @@ export default function Form({ dateString }) {
           Submit
 </Button>
       </form>
-    </>
+    </div>
   )
 }

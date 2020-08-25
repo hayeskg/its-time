@@ -27,7 +27,7 @@ export default function Home() {
           <br />
           <h1>It's time to do something.</h1>
         </div>
-        <Form />
+        <Form className={styles.form} />
       </main>
 
       <footer className={styles.footer}>
