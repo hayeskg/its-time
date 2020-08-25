@@ -34,9 +34,14 @@
 .subtitle{
   background-color: #FF9300;
   color: #FFFFFF;
-  width: 320px;
-  height: 43px;
+  width: 305px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
   text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
 }
 
 
