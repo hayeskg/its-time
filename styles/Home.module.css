@@ -44,6 +44,40 @@
   margin: 0;
 }
 
+.para1 {
+  padding: 3rem;
+  background-color: #ffffff;
+  color: #222222;
+  justify-content: center;
+  text-align: center;
+}
+
+.para1 p {
+font-size: 36px;
+}
+
+.para1 h1 {
+font-size: 36px;
+font-weight: bold;
+}
+
+.para2 {
+  padding: 3rem;
+  background-color: #ffffff;
+  color: #222222;
+  justify-content: center;
+  text-align: center;
+}
+
+.para2 p {
+font-size: 28px;
+}
+
+.para2 h1 {
+font-size: 28px;
+font-weight: bold;
+}
+
 
 .footer {
   width: 100%;
