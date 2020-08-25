@@ -5,19 +5,18 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>It's Time</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <div className={styles.title}>
+          <img src="/images/asset13.png" alt="it's time graphic wide" />
+        </div>
+        <div className={styles.subtitle}>
+          <h3>Coming November 2020</h3>
+        </div>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -51,14 +50,12 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        <h3>Footer TBC</h3>
+        <br />
+        <p>
+          This event is powered by people who care. The It’s Time event is a <br /> not for profit and exists because we need to keep the climate <br />crisis front and centre of the conversation.
+        </p>
+
       </footer>
     </div>
   )
