@@ -1,25 +1,53 @@
+
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/SofiaProLight.woff2') format('woff2'),
+    url('../fonts/SofiaProLight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/SofiaProRegular.woff2') format('woff2'),
+    url('../fonts/SofiaProRegular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/SofiaProBold.woff2') format('woff2'),
+    url('../fonts/SofiaProBold.woff') format('woff');
+}
+
 .container {
+  width: 100%;
+  font-family: 'Sofia Pro';
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
+/* 
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+  margin: 0;
+} */
 
 .title {
+  width: 100%;
   background-color: #F5B90D;
-  width: 1366px;
   height: 551px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .title img {
@@ -31,17 +59,21 @@
   height: 335px;
 }
 
-.subtitle{
+.subtitle {
   background-color: #FF9300;
   color: #FFFFFF;
   width: 305px;
   height: 55px;
+  font-size: 24px;
+  font-weight: 400;
+  offset: 300px;
+}
+
+.subtitle p{
   display: flex;
   justify-content: center;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0;
+  margin-top: 0.5rem;
+
 }
 
 .para1 {
@@ -50,6 +82,7 @@
   color: #222222;
   justify-content: center;
   text-align: center;
+  font-weight: 300;
 }
 
 .para1 p {
@@ -58,7 +91,7 @@ font-size: 36px;
 
 .para1 h1 {
 font-size: 36px;
-font-weight: bold;
+font-weight: 700;
 }
 
 .para2 {
@@ -67,6 +100,7 @@ font-weight: bold;
   color: #222222;
   justify-content: center;
   text-align: center;
+  font-weight: 300;
 }
 
 .para2 p {
@@ -75,17 +109,7 @@ font-size: 28px;
 
 .para2 h1 {
 font-size: 28px;
-font-weight: bold;
-}
-
-.form h1{
-font-size: 28px;
-font-weight: bold;
-}
-
-.form p{
-font-size: 24px;
-background-color: red;
+font-weight: 700;
 }
 
 

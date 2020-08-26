@@ -1,5 +1,29 @@
+
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/SofiaProLight.woff2') format('woff2'),
+    url('../fonts/SofiaProLight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/SofiaProRegular.woff2') format('woff2'),
+    url('../fonts/SofiaProRegular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/SofiaProBold.woff2') format('woff2'),
+    url('../fonts/SofiaProBold.woff') format('woff');
+}
+
+
 .form {
-   padding: 3rem;
+  padding: 3rem;
   background-color: #ffffff;
   color: #222222;
   justify-content: center;
@@ -8,9 +32,10 @@
 
 .form h1{
 font-size: 28px;
-font-weight: bold;
+font-weight: 700;
 }
 
 .form p{
 font-size: 24px;
+font-weight: 300;
 }
