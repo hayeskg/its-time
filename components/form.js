@@ -1,8 +1,8 @@
-import styles from './form.module.css'
-// import { TextField, Button } from '@material-ui/core';
+import styles from './form.module.css';
+import React, { useState } from 'react';
 import styled from "styled-components";
 
-
+//components
 const StyledButton = styled.button`
   background-color: #F73A54;
   font-family: 'Sofia Pro';
@@ -31,7 +31,25 @@ const StyledInput = styled.input`
   border-bottom-style: hidden;
 `;
 
-export default function Form() {
+const Form = () => {
+  //state
+  const [email, setEmail] = useState
+    ({
+      email: '',
+    })
+
+
+  //handle form
+  const handleInputChange = ({ currentTarget: { value } }) => {
+    setEmail({ ...email, value })
+  }
+
+  //for testing
+  console.log(email);
+
+  const handleSubmit = () => {
+    //post request to CMS
+  }
   return (
     <div className={styles.form}>
       <h1>
@@ -39,10 +57,11 @@ export default function Form() {
     </h1>
       <p>We’ll send you updates and news on the It’s Time event</p>
       <form>
-        <StyledInput type="text" required />
-        <StyledButton> Submit </StyledButton>
+        <StyledInput type="text" required onChange={handleInputChange} placeholder="Enter your email address" />
+        <StyledButton onSubmit={handleSubmit}> Submit </StyledButton>
       </form>
     </div>
   )
 }
 
+export default Form;
