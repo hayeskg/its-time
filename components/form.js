@@ -29,7 +29,6 @@ const StyledInput = styled.input`
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: hidden;
-  
 `;
 
 export default function Form() {

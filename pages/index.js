@@ -11,11 +11,14 @@ export default function Home() {
       </Head>
 
       {/* <main className={styles.main}> */}
-      <div className={styles.title}>
+      <div className={styles.titleDesktop}>
         <img src="/images/asset13.png" alt="it's time graphic wide" />
-        <div className={styles.subtitle}>
-          <p>Coming November 2020</p>
-        </div>
+      </div>
+      <div className={styles.titleMobile}>
+        <img src="/images/asset12.png" alt="it's time graphic wide" />
+      </div>
+      <div className={styles.subtitle}>
+        <p>Coming November 2020</p>
       </div>
       <div className={styles.para1}>
         <p>On 1 November, a week-long United Nations <br />Climate Change Conference was supposed to <br />take place in Glasgow Scotland. Due to the <br />Coronavirus pandemic, it’s been postponed.</p>
